@@ -23,5 +23,6 @@
         android:id="@+id/showAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Показать адрес"/>
+        android:text="Показать адрес"
+        android:onClick="onClick"  />/>
 </LinearLayout>

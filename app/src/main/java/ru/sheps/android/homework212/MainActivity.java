@@ -76,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void showToast (View view) {
+
+    public void onClick(View view) {
         Toast.makeText(MainActivity.this
                 ,mCountriesSpinner.getSelectedItem().toString()
                         + " "
@@ -86,7 +87,4 @@ public class MainActivity extends AppCompatActivity {
                 ,Toast.LENGTH_LONG)
                 .show();
     }
-
-
-
 }
